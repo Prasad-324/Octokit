@@ -77,7 +77,7 @@ for (const repo of repos.data) {
       }
     );
 
-    console.log("\nReviewers:");
+    // console.log("\nReviewers:");
     reviews.data.forEach((review) => {
       console.log(`-- ${review.user.login} (Review Status: ${review.state})`);
     });
