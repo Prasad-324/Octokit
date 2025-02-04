@@ -33,7 +33,7 @@ for (const repo of repos.data) {
       },
     }
   );
-  console.log("\nRepo: %s", repo?.name);
+//   console.log("\nRepo: %s", repo?.name);
   contributors?.data.forEach(contributor => {
       console.log(contributor?.login);
   });
@@ -49,7 +49,7 @@ for (const repo of repos.data) {
     repo: repo.name,
   });
 
-  console.log("Branches:");
+//   console.log("Branches:");
   branches.data.forEach(branch => {
     console.log(`- ${branch.name}`);
   });
